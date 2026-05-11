@@ -1,0 +1,122 @@
+[
+	{
+		"id": "jam-gadang",
+		"name": "Jam Gadang",
+		"category": "sejarah",
+		"lat": -0.3047,
+		"lng": 100.3693,
+		"description": "Menara jam ikonik Bukittinggi yang dibangun tahun 1926. Uniknya, angka 4 ditulis IIII bukan IV.",
+		"image": "/images/locations/jam-gadang.jpg",
+		"detailLink": "/kampuang"
+	},
+	{
+		"id": "ngarai-sianok",
+		"name": "Ngarai Sianok",
+		"category": "wisata",
+		"lat": -0.31,
+		"lng": 100.36,
+		"description": "Lembah ngarai sepanjang 15 km dengan kedalaman 100 meter. 'Grand Canyon'-nya Sumatera Barat.",
+		"image": "/images/locations/ngarai-sianok.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "fort-de-kock",
+		"name": "Benteng Fort de Kock",
+		"category": "sejarah",
+		"lat": -0.3059,
+		"lng": 100.3728,
+		"description": "Benteng peninggalan kolonial Belanda (1825) di atas Bukit Jirek. Terhubung ke Taman Margasatwa lewat jembatan gantung Limpapeh.",
+		"image": "/images/locations/fort-de-kock.jpg",
+		"detailLink": "/kampuang"
+	},
+	{
+		"id": "pasar-atas",
+		"name": "Pasar Atas",
+		"category": "modern",
+		"lat": -0.3053,
+		"lng": 100.3701,
+		"description": "Pusat perbelanjaan tradisional Bukittinggi. Terkenal dengan kerajinan tangan, bordir, dan kain songket Minang.",
+		"image": "/images/locations/pasar-atas.jpg",
+		"detailLink": "/dapur"
+	},
+	{
+		"id": "lobang-jepang",
+		"name": "Lobang Jepang",
+		"category": "sejarah",
+		"lat": -0.307,
+		"lng": 100.368,
+		"description": "Terowongan sepanjang 1,5 km yang dibangun tentara Jepang pada 1942–1945 menggunakan tenaga romusha.",
+		"image": "/images/locations/lobang-jepang.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "rumah-kelahiran-bung-hatta",
+		"name": "Rumah Kelahiran Bung Hatta",
+		"category": "sejarah",
+		"lat": -0.3041,
+		"lng": 100.371,
+		"description": "Rumah tempat lahir Mohammad Hatta, Wakil Presiden RI pertama, pada 12 Agustus 1902.",
+		"image": "/images/locations/rumah-hatta.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "taman-margasatwa",
+		"name": "Taman Margasatwa & Budaya Kinantan",
+		"category": "wisata",
+		"lat": -0.3049,
+		"lng": 100.3731,
+		"description": "Kebun binatang tertua di Indonesia (1900), terhubung ke Fort de Kock via jembatan gantung Limpapeh.",
+		"image": "/images/locations/taman-margasatwa.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "taman-panorama",
+		"name": "Taman Panorama",
+		"category": "wisata",
+		"lat": -0.312,
+		"lng": 100.365,
+		"description": "Titik terbaik untuk menikmati keindahan Ngarai Sianok. Tersedia juga akses masuk ke Lobang Jepang.",
+		"image": "/images/locations/panorama.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "koto-gadang",
+		"name": "Koto Gadang",
+		"category": "wisata",
+		"lat": -0.32,
+		"lng": 100.35,
+		"description": "Nagari penghasil pengrajin perak dan filigri terbaik Indonesia, di seberang Ngarai Sianok.",
+		"image": "/images/locations/koto-gadang.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "pasar-lereng",
+		"name": "Pasar Lereng",
+		"category": "kuliner",
+		"lat": -0.306,
+		"lng": 100.3695,
+		"description": "Pasar tradisional terkenal dengan nasi kapau dan berbagai kuliner otentik Bukittinggi.",
+		"image": "/images/locations/pasar-lereng.jpg",
+		"detailLink": "/dapur"
+	},
+	{
+		"id": "masjid-raya-bukittinggi",
+		"name": "Masjid Raya Bukittinggi",
+		"category": "sejarah",
+		"lat": -0.3055,
+		"lng": 100.3698,
+		"description": "Masjid bersejarah di pusat kota dengan arsitektur khas Minangkabau.",
+		"image": "/images/locations/masjid-raya.jpg",
+		"detailLink": "/peta"
+	},
+	{
+		"id": "janjang-koto-gadang",
+		"name": "Janjang Koto Gadang",
+		"category": "wisata",
+		"lat": -0.315,
+		"lng": 100.357,
+		"description": "Tangga batu sepanjang 1 km menghubungkan Bukittinggi ke Koto Gadang menyusuri tebing Ngarai Sianok.",
+		"image": "/images/locations/janjang.jpg",
+		"detailLink": "/peta"
+	}
+]

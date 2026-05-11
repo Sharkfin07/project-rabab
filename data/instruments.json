@@ -1,0 +1,77 @@
+{
+  "instruments": [
+    {
+      "id": "talempong",
+      "name": "Talempong",
+      "description": "Alat musik pukul berbentuk gong kecil dari perunggu atau kuningan. Dimainkan dalam kelompok 3-7 buah dengan nada berbeda.",
+      "image": "/images/instruments/talempong.jpg",
+      "audioPath": "/audio/talempong",
+      "keys": [
+        { "keyboard": "a", "label": "Do", "note": "C4", "frequency": 261.63 },
+        { "keyboard": "s", "label": "Re", "note": "D4", "frequency": 293.66 },
+        { "keyboard": "d", "label": "Mi", "note": "E4", "frequency": 329.63 },
+        { "keyboard": "f", "label": "Sol", "note": "G4", "frequency": 392.00 },
+        { "keyboard": "g", "label": "La", "note": "A4", "frequency": 440.00 },
+        { "keyboard": "h", "label": "Do²", "note": "C5", "frequency": 523.25 },
+        { "keyboard": "j", "label": "Re²", "note": "D5", "frequency": 587.33 },
+        { "keyboard": "k", "label": "Mi²", "note": "E5", "frequency": 659.25 }
+      ],
+      "scale": "pentatonic-minang",
+      "toneOptions": {
+        "oscillator": { "type": "triangle" },
+        "envelope": { "attack": 0.001, "decay": 0.3, "sustain": 0.1, "release": 0.5 }
+      }
+    },
+    {
+      "id": "saluang",
+      "name": "Saluang",
+      "description": "Seruling bambu khas Minangkabau yang dimainkan dengan teknik circular breathing. Menghasilkan nada melengking yang melankolis.",
+      "image": "/images/instruments/saluang.jpg",
+      "audioPath": "/audio/saluang",
+      "keys": [
+        { "keyboard": "a", "label": "Do", "note": "C5", "frequency": 523.25 },
+        { "keyboard": "s", "label": "Re", "note": "D5", "frequency": 587.33 },
+        { "keyboard": "d", "label": "Mi", "note": "E5", "frequency": 659.25 },
+        { "keyboard": "f", "label": "Sol", "note": "G5", "frequency": 783.99 },
+        { "keyboard": "g", "label": "La", "note": "A5", "frequency": 880.00 },
+        { "keyboard": "h", "label": "Do³", "note": "C6", "frequency": 1046.50 },
+        { "keyboard": "j", "label": "Re³", "note": "D6", "frequency": 1174.66 },
+        { "keyboard": "k", "label": "Mi³", "note": "E6", "frequency": 1318.51 }
+      ],
+      "scale": "pentatonic-minang",
+      "toneOptions": {
+        "oscillator": { "type": "sine" },
+        "envelope": { "attack": 0.05, "decay": 0.1, "sustain": 0.8, "release": 0.4 }
+      }
+    },
+    {
+      "id": "gandang",
+      "name": "Gandang",
+      "description": "Gendang double-head khas Minang yang mengiringi pertunjukan randai dan upacara adat. Ritme gandang menentukan tempo tarian.",
+      "image": "/images/instruments/gandang.jpg",
+      "audioPath": "/audio/gandang",
+      "keys": [
+        { "keyboard": "a", "label": "Tak", "note": "C2", "frequency": 65.41 },
+        { "keyboard": "s", "label": "Tung", "note": "G2", "frequency": 98.00 },
+        { "keyboard": "d", "label": "Pak", "note": "D2", "frequency": 73.42 },
+        { "keyboard": "f", "label": "Dung", "note": "A2", "frequency": 110.00 },
+        { "keyboard": "g", "label": "Bum", "note": "E2", "frequency": 82.41 },
+        { "keyboard": "h", "label": "Ting", "note": "B2", "frequency": 123.47 },
+        { "keyboard": "j", "label": "Prek", "note": "F2", "frequency": 87.31 },
+        { "keyboard": "k", "label": "Dak", "note": "C3", "frequency": 130.81 }
+      ],
+      "scale": "rhythm",
+      "toneOptions": {
+        "oscillator": { "type": "sawtooth" },
+        "envelope": { "attack": 0.001, "decay": 0.15, "sustain": 0.0, "release": 0.1 }
+      }
+    }
+  ],
+  "scaleInfo": {
+    "pentatonic-minang": {
+      "name": "Skala Pentatonik Minang",
+      "notes": ["Do", "Re", "Mi", "Sol", "La"],
+      "description": "Skala 5 nada tanpa Fa dan Si. Karakteristik inilah yang membuat musik Minang terdengar khas — apapun yang dimainkan akan terdengar 'Minang'."
+    }
+  }
+}
