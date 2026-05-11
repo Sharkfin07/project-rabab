@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\mzida_yqzansz\\\\Projects\\\\web-development\\\\project-rabab\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(npm install *)"
+    ]
+  }
+}
