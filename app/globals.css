@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
+/* Font Definition */
+@font-face {
+	font-family: "Old Standard";
+	src: url("/fonts/OldStandardTT-Regular.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Old Standard";
+	src: url("/fonts/OldStandardTT-Bold.ttf") format("ttf");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Minangkabau";
+	src: url("/fonts/Minangkabau.otf") format("otf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--paper-white: #f8f8f6;
+	--midnight: #1f1f1e;
+	--old-standard: "Old Standard", serif;
+	--minangkabau: "Minangkabau", serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	@theme inline {
+		--color-background: var(--);
+	}
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	background: var(--paper-white);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
 }
